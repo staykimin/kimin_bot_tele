@@ -1,0 +1,31 @@
+{
+"kata_larangan":["cok", "tolol", "anjing", "bangsat"],
+"perintah":["/start", "sekarang jam", "sekarang hari", "pencipta", 
+"tambah data", "get_file_respon"],
+"respon":{
+	"/start":{
+		"tag":"start",
+		"text":"Memulai Bot"
+		},
+	"sekarang jam":{
+		"tag":"get_jam",
+		"text":"Sekarang Jam"
+		},
+	"sekarang hari":{
+		"tag":"get_hari",
+		"text":"Sekarang Hari"
+		},
+	"pencipta":{
+		"tag":"get_dev",
+		"text":"Kimin_"
+		},
+	"tambah data":{
+		"tag":"add_data",
+		"text":"Membuka Data Base"
+		},
+	"get_file_respon":{
+		"tag":"get_file_respon",
+		"text":"Dibawah Ini Merupakan File Respon!"
+		}
+	}
+}
